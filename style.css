@@ -1,0 +1,285 @@
+body,h1 h2 h3 h4 h5 h6 a p span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+
+header{
+    padding: 20px 0;
+}
+
+header figure img{
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+header ul{
+    list-style: none;
+    text-align: right;
+}
+header ul li{
+    display: inline-block;
+    position: relative;
+    padding: 0px 15px;
+}
+header ul li a {
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+    line-height: 75px;
+    font-weight: 500;
+}
+
+header ul li a span{
+    font-size: 18px;
+}
+
+header ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    text-align: left;
+    padding-left: 0;
+    opacity: 0;
+    visibility: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: .5s;
+}
+header ul li ul li{
+    display: block;
+}
+header ul li ul li a{
+    display: block;
+    color: #000;
+}
+
+header ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+/* banner section */
+
+.banner-section{}
+.banner-section h5 {
+    font-size: 22px;
+    margin-top: 100px;
+}
+.banner-section h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.banner-section p {
+    font-size: 20px;
+}
+.banner-section a {
+    background-color: #8490FF;
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+/* about-section */
+
+.about-section .details{
+    padding-left: 40px;
+}
+.about-section .details h5{}
+.about-section .details h1 {
+    /* padding: 20px 0; */
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    /* padding-left: 0; */
+}
+.about-section .details p {
+    font-weight: 500;
+    font-size: 18px;
+}
+.about-section .details a{
+    background-color: #8490FF;
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+/* rated-section */
+
+
+.rated-section{
+    background-color: #8490FF;
+    color: #fff;
+    padding: 80px;
+}
+
+.rated-section h1{
+    font-weight: 600;
+}
+.rated-section h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* webpage-summary */
+
+.webpage-summary{}
+
+.webpage-summary h1 {
+    font-size: 50px;
+}
+
+.webpage-summary p {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(105, 105, 105);
+}
+
+.webpage-summary .card{
+    border: none;
+    box-shadow: 2px 2px 30px #8490ff46;
+}
+
+.webpage-summary .card-body h2 {
+    line-height: 100px;
+}
+
+.webpage-summary .card-numbar {
+    background-color: #F9F9FF;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.webpage-summary .card-body .card-title {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: rgb(56, 56, 56);
+    margin-top: 10px;
+}
+
+
+.webpage-summary .card-body a{
+    box-shadow: 2px 2px 20px #8490ff5e;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.webpage-summary .card-body p {
+    color: rgb(126, 126, 126);
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+.webpage-summary .card-body .card-subtitle {
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+
+/* content-section */
+
+.content-section{
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.content-section .card{
+    box-shadow: 0 10px 20px rgba(133, 131, 131, 0.5);
+    border: none;
+}
+
+.content-section .card-body{
+    position: relative;
+    padding: 30px 0;
+    
+}
+.content-section .card-body img {
+    width: 100px;
+    position: absolute;
+    top: -70px;
+    left: 10px;
+}
+.content-section .card-body h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.content-section .card-body p{
+    font-weight: 500;
+}
+.content-section .card-body a{
+    box-shadow: 0 5px 10px rgba(133, 131, 131, 0.349);
+}
+
+
+/* contuct-section */
+
+
+.contuct-section{
+    padding: 50px 0;
+
+}
+.contuct-section h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.contuct-section h1 {
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.contuct-form{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 20px #45668b42;
+}
+
+.contuct-form h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.contuct-form a{
+    background-color: #17A2B8;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.contuct-details{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.contuct-details h4 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.contuct-details p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #04091E;
+}
